@@ -31,7 +31,10 @@ const ContactsListItems = () => {
         </Link>
       </li>
       <li className='nav-menu__accordion__item'>
-        <Link href='https://www.instagram.com/sodiumstore.md' className='nav-menu__accordion__item__link'>
+        <Link
+          href='https://www.instagram.com/sodiumstore.md'
+          className='nav-menu__accordion__item__link'
+        >
           {translations[lang].main_menu.vk}
         </Link>
       </li>

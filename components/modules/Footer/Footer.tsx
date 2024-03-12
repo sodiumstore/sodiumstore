@@ -22,7 +22,9 @@ const Footer = () => {
               <a href='tel:+37300000000'>+37300000000</a>
             </span>
             <span>
-              <a href='mailto:sodiumstore.md@gmail.com'>sodiumstore.md@gmail.com</a>
+              <a href='mailto:sodiumstore.md@gmail.com'>
+                sodiumstore.md@gmail.com
+              </a>
             </span>
             {isMedia950 && <FooterLinks />}
           </div>
@@ -30,7 +32,7 @@ const Footer = () => {
           <ul className='list-reset footer__socials'>
             <li className='footer__socials__item'>
               <a
-                href='https://t.me/sodiumstore'   
+                href='https://t.me/sodiumstore'
                 className='footer__socials__item__link'
               />
             </li>
@@ -41,7 +43,7 @@ const Footer = () => {
               />
             </li>
             <li className='footer__socials__item'>
-
+              <a />
             </li>
           </ul>
         </div>

@@ -4,8 +4,7 @@ export default function manifest(): MetadataRoute.Manifest {
   return {
     name: 'SodiumStore Application',
     short_name: 'SodiumStore App',
-    description:
-      'SodiumStore магазин одежды, обуви и аксесуаров',
+    description: 'SodiumStore магазин одежды, обуви и аксесуаров',
     start_url: '/',
     background_color: '#fff',
     theme_color: '#fff',
