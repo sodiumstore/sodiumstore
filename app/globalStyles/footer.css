@@ -5,7 +5,7 @@
 .footer__top {
   padding-top: 15px;
   padding-bottom: 30px;
-  background-color: #333A47;
+  background-color: #495057;
 }
 
 .footer__top__container {
@@ -29,7 +29,7 @@
 }
 
 .footer__contacts a:hover, .footer__links a:hover {
-  color: #9466FF;
+  color: #5390D9;
   transition: color .2s ease-in-out;
 }
 
@@ -90,18 +90,18 @@
 
 .footer__socials__item__link:hover::before {
   transition: background-color 0.2s ease-in-out;
-  background-color: #9466FF;
+  background-color: #5390D9;
 }
 
 .footer__socials__item__link:hover {
-  border-color: #9466FF;
+  border-color: #5390D9;
   transition: border-color .2s ease-in-out;
 }
 
 .footer__bottom {
   padding-top: 16px;
   padding-bottom: 40px;
-  background-color: #242C39;
+  background-color: #343A40;
 }
 
 .footer__bottom__container {
@@ -127,7 +127,7 @@
 }
 
 .footer__policy__inner a:hover, .footer__mobile a:hover {
-  color: #9466FF;
+  color: #5390D9;
   transition: color .2s ease-in-out;
 }
 

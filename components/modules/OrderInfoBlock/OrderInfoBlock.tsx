@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import { MutableRefObject, useRef, useState } from 'react'
-import { useCartByAuth } from '@/hooks/useCartByAuth'
 import { useLang } from '@/hooks/useLang'
 import { useTotalPrice } from '@/hooks/useTotalPrice'
 import { countWholeCartItemsAmount } from '@/lib/utils/cart'
 import { formatPrice, showCountMessage } from '@/lib/utils/common'
 import { OrderInfoBlock } from '@/types/modules'
+import { $cart, $cartFromLs } from '@/context/cart'
+import { useGoodsByAuth } from '@/hooks/useGoodsByAuth'
 import styles from '@/styles/order-block/index.module.scss'
 
 const OrderInfoBlock = ({
@@ -13,7 +14,7 @@ const OrderInfoBlock = ({
   isOrderPage,
 }: OrderInfoBlock) => {
   const { lang, translations } = useLang()
-  const currentCartByAuth = useCartByAuth()
+  const currentCartByAuth = useGoodsByAuth($cart, $cartFromLs)
   const [isUserAgree, setIsUserAgree] = useState(false)
   const { animatedPrice } = useTotalPrice()
   const checkboxRef = useRef() as MutableRefObject<HTMLInputElement>
@@ -42,20 +43,20 @@ const OrderInfoBlock = ({
           )}{' '}
           {translations[lang].order.worth}{' '}
           <span className={styles.order_block__info__text}>
-            {formatPrice(animatedPrice)} ₽
+            {formatPrice(animatedPrice)} Lei
           </span>
         </p>
         <p className={styles.order_block__info}>
           {translations[lang].order.amount_with_discounts}:{' '}
           <span className={styles.order_block__info__text}>
-            {priceWithDiscount} ₽
+            {priceWithDiscount} Lei
           </span>
         </p>
         {isOrderPage && <></>}
         <p className={styles.order_block__total}>
           <span>{translations[lang].order.total}:</span>
           <span className={styles.order_block__total__price}>
-            {priceWithDiscount} ₽
+            {priceWithDiscount} Lei
           </span>
         </p>
         {isOrderPage ? (

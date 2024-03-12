@@ -1,7 +1,7 @@
 .header {
   position: relative;
   z-index: 3;
-  background-color: #1D2533;
+  background-color: #212529;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20), 0px 0px 8px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -70,7 +70,7 @@
 
 .header__links__item__btn:hover::before {
   transition: background-color 0.2s ease-in-out;
-  background-color: #9466FF;
+  background-color: #5390D9;
 }
 
 .header__links__item__btn {
@@ -112,11 +112,11 @@
 
 .header__burger:hover::before {
   transition: background-color 0.2s ease-in-out;
-  background-color: #9466FF;
+  background-color: #5390D9;
 }
 
 .header__burger:hover {
-  color: #9466FF;
+  color: #5390D9;
   transition: .2s ease-in-out color;
 }
 

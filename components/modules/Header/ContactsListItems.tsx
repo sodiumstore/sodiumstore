@@ -8,10 +8,10 @@ const ContactsListItems = () => {
     <>
       <li className='nav-menu__accordion__item'>
         <a
-          href='tel:+74995558293'
+          href='tel:+37300000000'
           className='nav-menu__accordion__item__link nav-menu__accordion__item__title'
         >
-          +7 (499) 555 82 93
+          +37300000000
         </a>
       </li>
       <li className='nav-menu__accordion__item'>
@@ -24,14 +24,14 @@ const ContactsListItems = () => {
       </li>
       <li className='nav-menu__accordion__item'>
         <Link
-          href='https://t.me/dvejer'
+          href='https://t.me/sodiumstore'
           className='nav-menu__accordion__item__link'
         >
           {translations[lang].main_menu.tg}
         </Link>
       </li>
       <li className='nav-menu__accordion__item'>
-        <Link href='https://vk.com' className='nav-menu__accordion__item__link'>
+        <Link href='https://www.instagram.com/sodiumstore.md' className='nav-menu__accordion__item__link'>
           {translations[lang].main_menu.vk}
         </Link>
       </li>

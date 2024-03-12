@@ -6,6 +6,7 @@ import { useLang } from '@/hooks/useLang'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import img1 from '@/public/img/brands-life.png'
 import img2 from '@/public/img/categories-img-1.png'
+import img3 from '@/public/img/update3.png'
 import MainSlider from './MainSlider'
 import styles from '@/styles/main-page/index.module.scss'
 
@@ -77,7 +78,7 @@ const BrandLife = () => {
                 className={`${styles.brands__list__item__link} ${styles.categories__img} ${imgSpinnerClass}`}
               >
                 <Image
-                  src={img2}
+                  src={img3}
                   alt={translations[lang].main_page.brand_idea}
                   className='transition-opacity opacity-0 duration'
                   onLoad={handleLoadingImageComplete}

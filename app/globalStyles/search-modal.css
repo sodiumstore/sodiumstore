@@ -5,7 +5,7 @@
   top: 50px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #333A47;
+  background-color: #212529;
   padding: 24px;
   z-index: 101;
 }
@@ -97,5 +97,5 @@
   bottom: 10px;
   font-size: 12px;
   transition: top .2s ease-in-out, font-size .2s ease-in-out, color .2s ease-in-out;
-  color: #9466FF;
+  color: #5390D9;
 }

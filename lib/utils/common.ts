@@ -1,5 +1,6 @@
+import { EventCallable } from 'effector'
+import toast from 'react-hot-toast'
 import { closeAuthPopup, openAuthPopup, setIsAuth } from '@/context/auth'
-import { setShouldShowEmpty } from '@/context/cart'
 import { setCurrentProduct } from '@/context/goods'
 import {
   closeSearchModal,
@@ -10,8 +11,6 @@ import { setSizeTableSizes } from '@/context/sizeTable'
 import { loginCheck } from '@/context/user'
 import { ICartItem } from '@/types/cart'
 import { IProduct } from '@/types/common'
-import { EventCallable } from 'effector'
-import toast from 'react-hot-toast'
 
 export const removeOverflowHiddenFromBody = () => {
   const body = document.querySelector('body') as HTMLBodyElement
@@ -146,6 +145,7 @@ export const deleteProductFromLS = <T>(
   id: string,
   key: string,
   event: EventCallable<T>,
+  setShouldShowEmpty: (arg0: boolean) => void,
   message: string,
   withToast = true
 ) => {

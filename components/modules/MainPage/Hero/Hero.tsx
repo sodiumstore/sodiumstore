@@ -19,17 +19,17 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      title: `${translations[lang].main_page.tShirt} «Line» ${translations[lang].main_page.black}`,
+      title: `${translations[lang].main_page.tShirt} ${translations[lang].main_page.black}`,
       image: img1,
     },
     {
       id: 2,
-      title: `${translations[lang].main_page.tShirt} «Line» ${translations[lang].main_page.orange}`,
+      title: `${translations[lang].main_page.tShirt} ${translations[lang].main_page.orange}`,
       image: img2,
     },
     {
       id: 3,
-      title: `${translations[lang].main_page.tShirt} «Line» ${translations[lang].main_page.violet}`,
+      title: `${translations[lang].main_page.tShirt} ${translations[lang].main_page.violet}`,
       image: img3,
     },
   ]
@@ -42,7 +42,7 @@ const Hero = () => {
         {translations[lang].main_page.hero_hidden_title}
       </h1>
       <div className={`container ${styles.hero__container}`}>
-        <span className={stylesForAd.ad}>{translations[lang].common.ad}</span>
+        
         <Swiper
           className={styles.hero__slider}
           effect='coverflow'
@@ -74,7 +74,7 @@ const Hero = () => {
               lang === 'ru' ? '' : styles.hero__title__subtitle_lang
             }`}
           >
-            [ {translations[lang].main_page.hero_subtitle} ]
+           
           </span>
           <span className={styles.hero__title__text}>
             {translations[lang].main_page.hero_title}

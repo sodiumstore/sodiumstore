@@ -1,10 +1,10 @@
 const FooterLinks = () => (
   <div className='footer__links'>
     <span>
-      <a href='https://vc.ru'>vc.ru</a>
+      <a href='https://www.instagram.com/sodiumstore.md'>instagram</a>
     </span>
     <span>
-      <a href='https://habr.comu'>habr.comu</a>
+      <a href='https://t.me/sodiumstore'>telegram</a>
     </span>
   </div>
 )

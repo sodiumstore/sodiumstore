@@ -16,7 +16,7 @@
 }
 
 .header-profile__inner {
-  background-color: #3D4555;
+  background-color: #495057;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.12);
   padding: 0;
   margin: 0;
@@ -64,6 +64,6 @@
 }
 
 .header-profile__item__btn:hover {
-  color: #9466FF;
+  color: #5390D9;
   transition: color .2s ease-in-out;
 }

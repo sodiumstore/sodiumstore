@@ -16,18 +16,7 @@ const ProductSubtitle = ({
       <div
         className={`${styles.product_subtitle__subtitle__rect} ${subtitleRectClassName}`}
       />
-      <span>
-        {translations[lang].main_page.hero_description.slice(
-          0,
-          descriptionSlicePosition
-        )}
-      </span>
-      <br />
-      <span>
-        {translations[lang].main_page.hero_description.slice(
-          descriptionSlicePosition
-        )}
-      </span>
+
     </div>
   )
 }

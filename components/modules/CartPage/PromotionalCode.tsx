@@ -8,13 +8,13 @@ const PromotionalCode = ({
   setIsCorrectPromotionalCode: (arg0: boolean) => void
 }) => {
   const [value, setValue] = useState('')
-  const isCorrectCode = value === 'SKILLBLOG'
+  const isCorrectCode = value === 'SODIUMINSTAGRAM'
   const { lang, translations } = useLang()
 
   const handleChangeValue = (e: React.ChangeEvent<HTMLInputElement>) => {
     setValue(e.target.value)
 
-    if (e.target.value === 'SKILLBLOG') {
+    if (e.target.value === 'SODIUMINSTAGRAM') {
       setIsCorrectPromotionalCode(true)
     } else {
       setIsCorrectPromotionalCode(false)

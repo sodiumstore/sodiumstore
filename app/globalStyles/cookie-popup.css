@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   padding: 40px 0;
-  background-color: #101828;
+  background-color: #343A40;
   z-index: 200;
 }
 
@@ -19,7 +19,7 @@
 .cookie-popup__text {
   margin: 0;
   line-height: 150%;
-  color: #a5a8ad;
+  color: #ffffff;
   max-width: 1110px;
   margin-right: 20px;
 }
@@ -51,7 +51,7 @@
   padding: 12px 24px !important;
   font-weight: 500;
   color: #fff;
-  background-color: #9466ff !important;
+  background-color: #5390D9 !important;
 }
 
 

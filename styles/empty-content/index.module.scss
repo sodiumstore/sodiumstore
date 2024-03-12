@@ -30,7 +30,7 @@
     z-index: -1;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #242C39;
+    color: #343A40;
     font-size: 376px;
     font-weight: 700;
 
@@ -149,7 +149,7 @@
     }
 
     a {
-      color: #9466ff;
+      color: #5390D9;
       text-decoration: none;
     }
   }
@@ -202,7 +202,7 @@
     }
 
     a:first-child {
-      background-color: #9466FF;
+      background-color: #5390D9;
       margin-right: 20px;
       transition: background-color .2s ease-in-out;
 
@@ -213,16 +213,16 @@
 
       &:hover {
         transition: background-color .2s ease-in-out;
-        background-color: #70f;
+        background-color: #5E60CE;
       }
     }
 
     a:last-child {
-      border: 2px solid #9466FF;
+      border: 2px solid #5390D9;
 
       &:hover {
         transition: background-color .2s ease-in-out;
-        background-color: #9466FF;
+        background-color: #5390D9;
       }
     }
   }

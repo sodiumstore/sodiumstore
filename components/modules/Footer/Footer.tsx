@@ -19,10 +19,10 @@ const Footer = () => {
           </div>
           <div className='footer__contacts'>
             <span>
-              <a href='tel:+74999998283'>+7 (499) 999-82-83</a>
+              <a href='tel:+37300000000'>+37300000000</a>
             </span>
             <span>
-              <a href='mailto:rostelecom.merc@rt.ru'>rostelecom.merc@rt.ru</a>
+              <a href='mailto:sodiumstore.md@gmail.com'>sodiumstore.md@gmail.com</a>
             </span>
             {isMedia950 && <FooterLinks />}
           </div>
@@ -30,21 +30,18 @@ const Footer = () => {
           <ul className='list-reset footer__socials'>
             <li className='footer__socials__item'>
               <a
-                href='https://t.me/dvejer'
+                href='https://t.me/sodiumstore'   
                 className='footer__socials__item__link'
               />
             </li>
             <li className='footer__socials__item'>
               <a
-                href='https://vk.com'
+                href='https://instagram.com/sodiumstore.md'
                 className='footer__socials__item__link'
               />
             </li>
             <li className='footer__socials__item'>
-              <a
-                href='https://youtube.com'
-                className='footer__socials__item__link'
-              />
+
             </li>
           </ul>
         </div>
@@ -52,9 +49,9 @@ const Footer = () => {
       <div className='footer__bottom'>
         <div className='container footer__bottom__container'>
           <div className='footer__copyright'>
-            © 2023 ПАО {translations[lang].footer.copyright}
+            © 2024 {translations[lang].footer.copyright}
             <br />
-            (18+)
+            (16+)
           </div>
           <div className='footer__policy'>
             <div className='footer__policy__inner'>
